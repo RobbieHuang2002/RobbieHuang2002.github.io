@@ -149,7 +149,8 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/robbiehuang2002.github.io"
+
 
 # ------------ The following options are not recommended to be modified ------------------
 
