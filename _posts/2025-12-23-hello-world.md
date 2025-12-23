@@ -19,7 +19,8 @@ It's a dataset of roughly 4,000 images of MMA fights labeling the types of moves
 It was cool to grab some images from youtube and put it through the model. 
 
 
-<img src="{{ site.baseurl }}/assets/img/2025-12-23.png" width="400">
+![Descriptive alt text](/assets/img/2025-12-23.png)
+
 
 ```python
 from fastai.vision.all import *
