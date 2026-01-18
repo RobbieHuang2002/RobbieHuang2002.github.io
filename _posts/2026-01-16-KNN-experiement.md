@@ -16,7 +16,11 @@ I followed this up by going back to numbers and wanted to see if a KNN model cou
 
 # What I Built
 
-I decided to scrape using beautifulSoup, grabbing all sorts of data from the each fight. In order to create the features I decided to use the difference of significant strikes. 
+I decided to scrape using beautifulSoup. The problem with most webscraping projects is that most websites have horribly structured HTML tags for people to work with. Scraping specific data was quite a headache, as many times I would scrape unnecessary data along side the correct data I wanted, or the scraper would break as some pages wouldnt be consistent (specifcally when there were no winners such as no contests or draws). 
+
+Another issue I ran into was 429 HTTP errors, the web servers would realize an overwhelming amount of requests were second. To resolve the issue we imported random to make the requests seem more human as they are purposefully slowed down. 
+
+Finally grabbing all the data I wrote it to a CSV file using pandas dataframes, and was able to start training...
 
 I then fed the data that I collected into a KNN model and trained it. I was able to achieve a 78% accruacy. 
 ![Descriptive alt text](/assets/img/Accuracy.png)
