@@ -21,6 +21,9 @@ I decided to scrape using beautifulSoup, grabbing all sorts of data from the eac
 I then fed the data that I collected into a KNN model and trained it. I was able to achieve a 78% accruacy. 
 ![Descriptive alt text](/assets/img/Accuracy.png)
 
+I will also share the code that I used for webscraping here: 
+https://github.com/RobbieHuang2002/uftstats_scraper
+
 
 # Future work
 
